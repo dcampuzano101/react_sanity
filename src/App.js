@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import { client, urlFor } from './sanityClient';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class='container mx-auto border-black border-4 h-screen'>
+      <NavBar />
     </div>
   );
 }
 
 export default App;
+
+{
+  /* <div class='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
+  <div>
+    <div class='text-xl font-medium text-primary'>ChitChat</div>
+    <p class='text-gray-500'>You have a new message!</p>
+  </div>
+</div>; */
+}
