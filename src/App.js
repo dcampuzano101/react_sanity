@@ -1,13 +1,25 @@
 // import { client, urlFor } from './sanityClient';
 import NavBar from './components/NavBar';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-function App() {
+// function App() {
+//   return (
+//     <div class='container mx-auto border-black border-4 h-screen'>
+//       <NavBar />
+//     </div>
+//   );
+// }
+
+const App = () => {
   return (
-    <div class='container mx-auto border-black border-4 h-screen'>
-      <NavBar />
-    </div>
+    <Router>
+      <div class='container mx-auto border-black border-4 h-screen'>
+        <NavBar />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
 
