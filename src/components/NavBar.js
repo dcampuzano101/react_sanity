@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = ({ history }) => {
   return (
-    <div className='h-36 w-auto border-white border-4 flex flex-row'>
+    <div className='h-1/6 w-auto border-white border-4 flex flex-row'>
       <div className='w-1/3 h-full flex-initial border-black border-4 flex justify-center items-center'>
         <Link
           to='/'
