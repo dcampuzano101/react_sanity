@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { client, urlFor } from '../sanityClient';
 import PostBox from './PostBox';
 
-const AllPosts = (posts) => {
+const AllPosts = (props) => {
   const postsQuery = `*[_type == 'post']{
     _id,
     postTitle,
