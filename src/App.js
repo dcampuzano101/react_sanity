@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <Router>
-      <div className='container mx-auto border-black border-4 h-screen'>
+      <div className='container mx-auto border-black border-4 h-screen bg-gray-200 bg-opacity-25'>
         <NavBar />
         <div className='h-4/6'>
           <Route path='/' component={Main} exact />

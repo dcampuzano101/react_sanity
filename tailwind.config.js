@@ -10,6 +10,11 @@ module.exports = {
         rubik: ['rubik', 'sans-serif'],
         karla: ['karla', 'sans-serif'],
       },
+      backgroundImage: {
+        // 'fitness-card': "url('images/fitness.jpeg')",
+        // 'coding-card': "url('images/simple_setup.jpeg')",
+        // 'lifestyle-card': "url('images/medellin.jpeg')",
+      },
     },
   },
   variants: {
